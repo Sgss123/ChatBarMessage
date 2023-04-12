@@ -6,6 +6,6 @@ import org.bukkit.event.player.PlayerChatEvent;
 
 public class PlayerChat implements Listener {
     public void PlayerChat(AsyncPlayerChatEvent e){
-        
+
     }
 }
