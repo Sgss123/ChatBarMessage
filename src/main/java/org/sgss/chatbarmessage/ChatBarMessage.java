@@ -2,6 +2,9 @@ package org.sgss.chatbarmessage;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.sgss.chatbarmessage.Events.PlayerChat;
+import org.sgss.chatbarmessage.Events.PlayerJoin;
+import org.sgss.chatbarmessage.Events.PlayerQuit;
 
 public final class ChatBarMessage extends JavaPlugin {
 

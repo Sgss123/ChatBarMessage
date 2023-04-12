@@ -1,4 +1,4 @@
-package org.sgss.chatbarmessage;
+package org.sgss.chatbarmessage.Events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

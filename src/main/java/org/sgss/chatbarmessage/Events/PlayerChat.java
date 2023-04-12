@@ -1,4 +1,4 @@
-package org.sgss.chatbarmessage;
+package org.sgss.chatbarmessage.Events;
 
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
