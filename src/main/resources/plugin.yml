@@ -1,4 +1,4 @@
 name: ChatBarMessage
 version: '${version}'
 main: org.sgss.chatbarmessage.ChatBarMessage
-api-version: 1.19
+api-version: 1.16
