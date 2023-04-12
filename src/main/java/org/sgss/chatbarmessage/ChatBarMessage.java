@@ -8,12 +8,12 @@ public final class ChatBarMessage extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getConsoleSender().sendMessage("§2Plugin has been loaded!");
+        Bukkit.getConsoleSender().sendMessage("[ChatBarMessage] §aPlugin has been loaded!");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getConsoleSender().sendMessage("§2Plugin has been unloaded!");
+        Bukkit.getConsoleSender().sendMessage("[ChatBarMessage] §aPlugin has been unloaded!");
     }
 }
