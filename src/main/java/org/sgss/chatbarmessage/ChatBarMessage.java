@@ -9,6 +9,7 @@ public final class ChatBarMessage extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         Bukkit.getConsoleSender().sendMessage("[ChatBarMessage] §aPlugin has been loaded!");
+        getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
     }
 
     @Override
