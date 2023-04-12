@@ -10,7 +10,7 @@ public class PlayerJoin implements Listener {
     @EventHandler
     public void OnJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
-        e.setJoinMessage(ChatColor.translateAlternateColorCodes('§', "§7[§f" + p.getName() + "§7] 加入游戏"));
+        e.setJoinMessage(ChatColor.translateAlternateColorCodes('§', "§7[§a+§7] §6" + p.getName()));
 
     }
 }
