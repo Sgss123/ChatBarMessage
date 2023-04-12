@@ -5,8 +5,8 @@ import org.bukkit.event.Listener;
 
 public class PlayJoinEvent implements Listener {
     @EventHandler
-    void PlayJoin() {
-        
+    public void OnJoin() {
+
     }
 }
 
